@@ -2662,7 +2662,7 @@ Please make sure your boards conform to these design rules.</description>
 </element>
 <element name="D2" library="SparkFun" package="LED-0603" value="Green" x="37.7" y="57.37" smashed="yes" rot="R270">
 <attribute name="NAME" x="34.811" y="56.9435" size="0.8128" layer="25"/>
-<attribute name="VALUE" x="36.684" y="56.2905" size="0.8128" layer="27"/>
+<attribute name="VALUE" x="35.934" y="55.7905" size="0.8128" layer="27"/>
 </element>
 <element name="R21" library="SparkFun" package="0402-RES" value="330" x="37.71" y="59.125" smashed="yes">
 <attribute name="NAME" x="36.821" y="59.8235" size="0.8128" layer="25"/>
@@ -2673,10 +2673,10 @@ Please make sure your boards conform to these design rules.</description>
 </element>
 <element name="D3" library="SparkFun" package="LED-0603" value="Red" x="41.4" y="57.36" smashed="yes" rot="R270">
 <attribute name="NAME" x="43.011" y="56.9335" size="0.8128" layer="25"/>
-<attribute name="VALUE" x="40.384" y="56.2805" size="0.8128" layer="27"/>
+<attribute name="VALUE" x="40.384" y="55.6555" size="0.8128" layer="27"/>
 </element>
 <element name="R22" library="SparkFun" package="0402-RES" value="10K" x="46" y="65.375" smashed="yes" rot="R270">
-<attribute name="NAME" x="46.6985" y="66.264" size="0.8128" layer="25" rot="R270"/>
+<attribute name="NAME" x="46.6985" y="66.389" size="0.8128" layer="25" rot="R270"/>
 </element>
 <element name="JP2" library="SparkFun" package="1X01NS" value="M01SMDNS" x="46.025" y="62.05" smashed="yes"/>
 <element name="CN1" library="SparkFun-Connectors" package="JST-2-PTH" value="M02JST-PTH-2" x="6.5" y="28.5" smashed="yes" rot="R90">
@@ -2709,7 +2709,7 @@ Please make sure your boards conform to these design rules.</description>
 </element>
 <element name="D11" library="SparkFun" package="LED-0603" value="RED" x="8.5" y="72.25" smashed="yes" rot="R180">
 <attribute name="NAME" x="9.3235" y="73.139" size="0.8128" layer="25" rot="R270"/>
-<attribute name="VALUE" x="7.4205" y="73.266" size="0.8128" layer="27" rot="R270"/>
+<attribute name="VALUE" x="6.9205" y="73.141" size="0.8128" layer="27" rot="R270"/>
 </element>
 <element name="R2" library="SparkFun" package="0402-RES" value="330" x="8.875" y="74.75" smashed="yes">
 <attribute name="NAME" x="10.486" y="74.6985" size="0.8128" layer="25"/>
@@ -2724,7 +2724,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="12.8015" y="72.361" size="0.8128" layer="25" rot="R90"/>
 </element>
 <element name="C6" library="SparkFun" package="0402-CAP" value="4.7uF" x="10.125" y="65.375" smashed="yes">
-<attribute name="NAME" x="7.236" y="64.9485" size="0.8128" layer="25"/>
+<attribute name="NAME" x="11.236" y="66.1985" size="0.8128" layer="25"/>
 </element>
 <element name="X1" library="SparkFun" package="USB-MINIB" value="Micro USB" x="24" y="71.25" smashed="yes" rot="R270">
 <attribute name="NAME" x="25.27" y="75.06" size="0.8128" layer="25" rot="R270"/>
@@ -2735,8 +2735,10 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="35.982" y="50.367" size="0.8128" layer="28" rot="MR270"/>
 </element>
 <element name="JP1" library="SparkFun-Connectors" package="1X06-SMD" value="" x="40.625" y="39" smashed="yes" rot="MR270"/>
-<element name="D1" library="SparkFun-DiscreteSemi" package="SOD-323" value="" x="5.5" y="65.375">
+<element name="D1" library="SparkFun-DiscreteSemi" package="SOD-323" value="" x="5.5" y="65.375" smashed="yes">
 <attribute name="PROD_ID" value="DIO-09646" x="5.5" y="65.375" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="3.736" y="66.391" size="0.8128" layer="25"/>
+<attribute name="VALUE" x="4.484" y="63.978" size="0.4064" layer="27"/>
 </element>
 </elements>
 <signals>
