@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="7.1.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -10379,21 +10379,6 @@ Please use the QFN-44-NOPAD_1:1 package for the footprint of all boards using a 
 <pinref part="C6" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<wire x1="236.22" y1="-53.34" x2="238.76" y2="-53.34" width="0.1524" layer="91"/>
-<wire x1="238.76" y1="-63.5" x2="236.22" y2="-63.5" width="0.1524" layer="91"/>
-<wire x1="236.22" y1="-63.5" x2="236.22" y2="-53.34" width="0.1524" layer="91"/>
-<wire x1="226.06" y1="-53.34" x2="236.22" y2="-53.34" width="0.1524" layer="91"/>
-<wire x1="226.06" y1="-55.88" x2="226.06" y2="-53.34" width="0.1524" layer="91"/>
-<wire x1="226.06" y1="-53.34" x2="226.06" y2="-48.26" width="0.1524" layer="91"/>
-<wire x1="226.06" y1="-48.26" x2="223.52" y2="-48.26" width="0.1524" layer="91"/>
-<junction x="236.22" y="-53.34"/>
-<junction x="226.06" y="-53.34"/>
-<pinref part="U6" gate="G$1" pin="IN"/>
-<pinref part="U6" gate="G$1" pin="EN"/>
-<pinref part="C15" gate="G$1" pin="+"/>
-<pinref part="D6" gate="G$1" pin="C"/>
-</segment>
-<segment>
 <pinref part="S2" gate="1" pin="P"/>
 <wire x1="40.64" y1="157.48" x2="30.48" y2="157.48" width="0.1524" layer="91"/>
 </segment>
@@ -10841,6 +10826,21 @@ Please use the QFN-44-NOPAD_1:1 package for the footprint of all boards using a 
 <pinref part="C17" gate="G$1" pin="1"/>
 <pinref part="C19" gate="G$1" pin="+"/>
 <pinref part="S2" gate="1" pin="S"/>
+</segment>
+<segment>
+<wire x1="236.22" y1="-53.34" x2="238.76" y2="-53.34" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="-63.5" x2="236.22" y2="-63.5" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="-63.5" x2="236.22" y2="-53.34" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="-53.34" x2="236.22" y2="-53.34" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="-55.88" x2="226.06" y2="-53.34" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="-53.34" x2="226.06" y2="-48.26" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="-48.26" x2="223.52" y2="-48.26" width="0.1524" layer="91"/>
+<junction x="236.22" y="-53.34"/>
+<junction x="226.06" y="-53.34"/>
+<pinref part="U6" gate="G$1" pin="IN"/>
+<pinref part="U6" gate="G$1" pin="EN"/>
+<pinref part="C15" gate="G$1" pin="+"/>
+<pinref part="D6" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="N$3" class="0">
